@@ -1,0 +1,211 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Harvinder Singh Jagdeo</title>
+    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.2/css/all.min.css">
+    <script src="https://kit.fontawesome.com/ec64c4f156.js" crossorigin="anonymous"></script>
+</head>
+<body>
+    <div id="header">
+        <div class="container">
+            <nav>
+                <div class="logo">
+                    <i class="fa-solid fa-record-vinyl"></i>
+                    <!-- <i class="fa-solid fa-h"></i> -->
+                    <div class="logo-text">Harvinder Singh Jagdeo</div>
+                </div>
+                <ul id="sidemenu">
+                    <li><a href="#header">Home</a></li>
+                    <li><a href="#about">About Us</a></li>
+                    <li><a href="#services">Services</a></li>
+                    <li><a href="http://buymeacoffee.com/harvindersinghjagdeo">Marketplace</a></li>
+                    <li><a href="#portfolio">Portfolio</a></li>
+                    <li><a href="#contact">Contact</a></li>
+                    <i class="fa-solid fa-xmark fas" onclick="closemenu()"></i>
+                    </ul>
+                <i class="fa-solid fa-bars fas" onclick="openmenu()"></i>
+            </nav>
+            <div class="header-text">
+                <p>Music Producers</p>
+                <h1>Hi, I'm <span>Harvinder Singh Jagdeo</span></h1>
+            </div>
+        </div>
+    </div>
+    <!-- -----------------------about--------------------- -->
+    <div id="about">
+        <div class="container">
+            <div class="row">
+                <div class="about-col-1">
+                    <img src="assets/profile.jpg" alt="Harvinder">
+                </div>
+                <div class="about-col-2">
+                    <h1 class="sub-title">About Me</h1>
+                    <p>Welcome on my website, where music comes to life. I am a passionate and versatile music producer, composer, singer, writer, and mix-mastering engineer dedicated to creating sonic masterpieces that resonate with listeners.
+                        With years of experience in the music industry, I have honed my skills across multiple disciplines to provide a comprehensive suite of services. Whether you're an artist looking to bring your vision to life, a filmmaker in need of a compelling score, or a band seeking that perfect mix, I am here to turn your musical dreams into reality.</p>
+                    <div class="tab-titles">
+                        <p class="tab-links active-link" onclick="opentab('skills')">Skills</p>
+                        <p class="tab-links" onclick="opentab('experience')">Experience</p>
+                        <p class="tab-links"onclick="opentab('education')">Education</p>
+                    </div>
+                    <div class="tab-contents active-tab" id="skills">
+                        <ul>
+                            <li><span>Music Production</span><br>Production / Composing / Mix-Mastering / Singer </li>
+                            <li><span>SOCIAL MEDIA MANAGEMENT</span><br>INSTAGRAM / FACEBOOK / YOUTUBE etc.. </li>
+                            <li><span>Web Development</span><br>HTML / CSS / JAVASCRIPT & REACT</li>
+                            <li><span>App Development</span><br>Cross-Platform (FLUTTER)</li>
+                            <li><span>WEB APPLICATION MANAGEMEN</span></li>
+                        </ul>
+                    </div>
+                    <div class="tab-contents" id="experience">
+                        <ul>
+                            <li><span>FRESHER</span></li>
+                        </ul>
+                    </div>
+                    <div class="tab-contents" id="education">
+                        <ul>
+                            <li><span>[2020-2021]</span><br>Matric (10th) at BCM Senior Secondary School, 32 A, Ludhiana (CBSE)</li>
+                            <li><span>[2023-2024]</span><br>Humanities (10+2) at Shaheed Bhagat Singh Public Sr. Sec. School, Fatehgarh Sahib (PSEB) </li>
+                            <li><span>[PURSUING]</span><br>Electrical Engineering Diploma at Guru Nanak Dev Polytechnic College, Ludhiana</li>
+                        </ul>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <!-- ------------------------services--------------------------- -->
+
+    <div id="services">
+        <div class="container">
+            <h1 class="sub-title">My Services</h1>
+            <div class="services-list">
+                <div>
+                    <i class="fa-solid fa-headphones-simple"></i>
+                    <h2>Music Production</h2>
+                    <p>My approach to music production is all about capturing the essence of your sound and elevating it to new heights. From initial concept to final track, I work closely with you to ensure every beat, melody, and harmony aligns with your artistic vision.</p>
+                    <a href="https://en.wikipedia.org/wiki/Production_music">Learn more</a>
+                </div>
+                <div>
+                    <i class="fa-solid fa-music"></i>
+                    <h2>Composing</h2>
+                    <p>As a composer, I specialize in creating original music that tells a story. Whether it's a haunting melody, an uplifting anthem, or an ambient soundscape, my compositions are crafted to evoke emotion and enhance your project, be it a song, film, or advertisement.</p>
+                    <a href="https://en.wikipedia.org/wiki/Composer">Learn more</a>
+                </div>
+                <div>
+                    <i class="fa-solid fa-wave-square"></i>
+                    <h2>Mix-Mastering</h2>
+                    <p>In the final stages of production, mix-mastering is crucial. As an experienced mix-mastering engineer, I ensure your tracks are polished to perfection. My attention to detail guarantees a balanced, professional sound that translates across all listening platforms.</p>
+                    <a href="https://en.wikipedia.org/wiki/Mastering_(audio)">Learn more</a>
+                </div>
+            </div>
+        </div>
+    </div>
+    
+    <!-- ------------------portfolio---------------------- -->
+
+    <div id="portfolio">
+        <div class="container">
+            <h1 class="sub-title">My Work</h1>
+            <div class="work-list">
+                <div class="work">
+                    <img src="assets/work3.jpg" alt="">
+                    <div class="layer">
+                        <h3>Music Production</h3>
+                        <p>
+                            I bring your musical vision to fruition with expertise and passion. Let's collaborate overview my work on Youtube.
+                        </p>
+                        <a href="https://youtube.com/@harvindersinghjagdeo?si=52snLGely5_mtX40"><i class="fa-solid fa-arrow-up-right-from-square"></i></a>
+                    </div>
+                </div>
+                <div class="work">
+                    <img src="assets/beats.png" alt="">
+                    <div class="layer">
+                        <h3>Harvinder Singh Jagdeo Beats</h3>
+                        <p>
+                            Check My Beats And Samples On YOUTUBE
+                        </p>
+                        <a href="https://www.youtube.com/channel/UCyNu9-gbfP1ZbPJPN3X3img"><i class="fa-solid fa-arrow-up-right-from-square"></i></a>
+                    </div>
+                </div>
+                <div class="work">
+                    <img src="assets/3.jpg" alt="">
+                    <div class="layer">
+                        <h3>Download Sample Packs & Loops</h3>
+                        <p>
+                            To download my sample & loops just shop from here....!! 
+                        </p>
+                        <a href="http://buymeacoffee.com/harvindersinghjagdeo"><i class="fa-solid fa-arrow-up-right-from-square"></i></a>
+                    </div>
+                </div>
+            </div>
+            <!-- <a href="#" class="btn">See more</a> -->
+        </div>
+    </div>
+
+    <!-- ------------------------contact------------------- -->
+    
+    <div id="contact">
+        <div class="container">
+            <div class="row">
+                <div class="contact-left">
+                    <h1 class="sub-title">Contact Me</h1>
+                    <p><i class="fa-solid fa-paper-plane"></i>harvindersinghjagdeo2004@gmail.com</p>
+                    <p><i class="fa-solid fa-phone"></i>+91 8872996077</p>
+                    <div class="social-icons">
+                        <a href="https://youtube.com/@harvindersinghjagdeo?si=52snLGely5_mtX40"><i class="fa-brands fa-youtube"></i></a>
+                        <a href="https://www.instagram.com/harvinderjagdeo21"><i class="fa-brands fa-instagram"></i></a>
+                        <a href="https://www.facebook.com/profile.php?id=100080401756368&mibextid=JRoKGi"><i class="fa-brands fa-facebook"></i></a>
+                        <a href="https://www.snapchat.com/add/jagdeo.21?share_id=smKFxMR8RqeAdrTlUoLNXg&locale=en_US"><i class="fa-brands fa-snapchat"></i></a>
+                        <a href="https://twitter.com/Harvinderjagdeo"><i class="fa-brands fa-twitter"></i></a>
+                        <!-- <a href="https://t.me/contact_harvindersinghjagdeo"><i class="fa-brands fa-telegram"></i></a> -->
+                        <!-- <a href="https://www.linkedin.com/in/harvinder-singh-754546308/"><i class="fa-brands fa-linkedin"></i></a> -->
+                    </div>
+                    <!-- <a href="assets/harvinder singh jagdeo.pdf"  download class="btn btn2">Download CV</a> -->
+                </div>
+                <div class="contact-right">
+                    <form action="https://formspree.io/f/mgegqawq" method="POST" reset >
+                        <input type="text"  name="Name" placeholder="Your Name" required>
+                        <input type="email"  name="email" placeholder="Your Email" required>
+                        <textarea name="Massage"  rows="6" placeholder="Your Massage"></textarea>
+                        <button type="submit" class="btn btn2">Submit</button>
+                    </form>
+                </div>
+            </div>
+        </div>
+        <div class="copyright">
+            <p> © copyright to <a href="#" style="text-decoration: none; color: #A91D3A;">Harvinder Singh Jagdeo</a></p>
+        </div>
+    </div>
+    
+    <script>
+
+        var tablinks = document.getElementsByClassName("tab-links");
+        var tabcontents = document.getElementsByClassName("tab-contents"); 
+
+        function opentab(tabname){  
+            for(tablink of tablinks){
+                tablink.classList.remove("active-link");
+            }
+            for(tabcontent of tabcontents){
+                tabcontent.classList.remove("active-tab");
+            }
+            event.currentTarget.classList.add("active-link");
+            document.getElementById(tabname).classList.add("active-tab");
+        }
+
+        var sidemenu = document.getElementById("sidemenu");
+
+        function openmenu(){
+            sidemenu.style.right = "0"
+        }
+        function closemenu(){
+            sidemenu.style.right = "-200px"
+        }
+
+    </script>
+    
+</body>
+</html>
