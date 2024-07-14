@@ -1,2 +1,2 @@
 # harvindersinghjagdeomusic
-Music Producer / Composer / Mix-Mastering / Singer
+Music Producer / Composer / Mix-Mastering / Singer / writer
